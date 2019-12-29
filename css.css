@@ -1,0 +1,284 @@
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:black;
+	margin:0px;
+	padding:0px;
+	color:black;
+
+}
+
+td{
+	margin-right:20px;
+	border-spacing:10px 10px;
+	vertical-align:top;
+}
+
+table{
+	margin-left:0px;
+	margin-right:0px;
+	border-spacing:10px 10px;
+	text-align:left;
+}
+
+#cv{
+	position:absolute;
+	top:20px;
+	bottom:20px;
+	width:35%;
+	background-color:white;
+	display:flex;
+	min-width:650px;
+	min-height:900px;
+	margin-bottom:10px;
+}
+/* header //////////////////////////////////////////////////////////////////////// */
+header{
+	background-color:#E5E7E9;
+	width:35%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+
+header article{
+	background-color:grey;
+	width:100%;
+	overflow:hidden;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	word-wrap: break-word;
+}
+
+article .logo{
+	width:60%;
+	margin-top:30px;
+	border-radius:50%;
+}
+
+article h4{
+	text-align:center;
+	background-color:white;
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	word-wrap: break-word;
+}
+
+article ul{
+	text-decoration:none;
+	list-style-type:none;
+	text-align:left;
+	margin:5px;
+	padding-left:0px;
+}
+
+article p{
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:100px;
+	text-align:justify;
+}
+
+.loisirs{
+	margin-top:130px;
+	text-align:center;
+	background-color:white;
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	word-wrap: break-word;
+
+}
+
+.loisirsLogo img{
+	margin:6px;
+}
+
+
+
+/* fin de header ///////////////////////////////////////////////////////////////////////////////// */
+
+footer{
+	background-color:pink;
+	width:65%;
+	height:100%;
+	display:flex;
+	flex-direction:column;		
+}
+
+.dev{
+	font-size:15px;
+}
+
+.nomPrenom{
+	margin-left:20px;
+}
+
+.typeTrois , .reco{
+	margin-top:50px;
+	display:flex;
+	border-bottom:2px solid black;
+	margin-left:20px;
+	margin-right:20px;
+	align-items:center;
+	height:24px;
+}
+
+.typesTrois img{
+	margin-right:10px;
+}
+
+.typesTrois span{
+	margin-left:10px;
+}
+
+#lol{
+	margin-left:10px;
+	font-size:20px;
+}
+
+
+
+
+
+#Recommendations{
+	background-color:grey;
+	width:100%;
+	height:110px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	margin-bottom:5px;
+	margin-top:5px;
+
+}
+
+#Recommendations section{
+	background-color:white;
+}
+
+
+
+#tabDec{
+	font-weight:bold;
+	margin-right:40px;
+	text-align:center;
+	border-radius:10px;
+	font-size:12px;
+	vertical-align:top;
+	width:100%;
+
+
+}
+
+.c{
+	font-size:12;
+	vertical-align:top;
+	font-weight:bold;
+	margin-right:40px;
+	text-align:center;
+	border-radius:10px;
+	color:white;
+}
+
+
+
+/*//////////////////////////////////////////////////////////* */
+@media screen and (max-width:657px){
+
+	.loisirs{
+		margin-bottom:20px;
+	}
+	
+
+	
+	header{
+		height:1200px;			
+	}
+
+	footer{
+		height:1200px;
+	}
+
+	.nomPrenom{
+		display:none;
+	}
+
+	body{
+		min-width:550px;
+	}
+	#cv{
+		position:absolute;
+		top:0px;
+		bottom:0px;
+		flex-direction:column;
+		min-width:550px;
+	}
+
+	header{
+		width:100%;
+	}
+
+	footer{
+		width:100%;
+	}
+}
+
+@media all and (orientation: portrait){
+
+			.logo{
+				width:60px;
+			}
+
+			body{
+				min-width:550px;
+				font-size:3vw;
+			}
+
+
+			.loisirs{
+				margin-bottom:20px;
+			}
+			header {
+				height:1200px;
+				
+			}
+
+			footer{
+				height:1200px;
+			}
+
+			.nomPrenom{
+				display:none;
+			}
+
+
+			#cv{
+				position:absolute;
+				width:100%;
+				top:0px;
+				bottom:0px;
+				flex-direction:column;
+				min-width:550px;
+
+			}
+
+			header{
+				width:100%;
+			}
+
+			footer{
+				width:100%;
+			}
+
+
+	}
+
+	
